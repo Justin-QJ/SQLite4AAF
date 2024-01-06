@@ -1,0 +1,1 @@
+# SQLite for Auditing Accounting & Finance (SQLite4AAF)
