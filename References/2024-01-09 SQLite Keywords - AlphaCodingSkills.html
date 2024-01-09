@@ -1,0 +1,183 @@
+<!DOCTYPE html> <html lang=en-US style><!--
+ Page saved with SingleFile 
+ url: https://www.alphacodingskills.com/sqlite/sqlite-keywords.php 
+ saved date: Tue Jan 09 2024 14:07:23 GMT+0800 (China Standard Time)
+--><meta charset=utf-8>
+<title>SQLite Keywords - AlphaCodingSkills</title>
+<meta name=viewport content="width=device-width,initial-scale=1.0,user-scalable=yes">
+<meta name=keywords content="SQLite, SQLite tutorial, Learn SQLite, inner join, left join, right join, full join, index, views, order by, group by, select statement, create table, delete table, update table, insert into, temporary tables">
+<meta name=Description content="Keywords are reserved words and SQLite has a number of keywords that are available while working on a database. A list of these keywords with brief ...">
+<link rel=canonical href=https://www.alphacodingskills.com/sqlite/sqlite-keywords.php>
+<style>@media screen{}</style>
+<style>:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,*::before,*::after{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}a{background-color:transparent}a:hover{color:#0056b3;text-decoration:underline}a:not([href]):not([class]){color:inherit;text-decoration:none}a:not([href]):not([class]):hover{color:inherit;text-decoration:none}th{text-align:-webkit-match-parent}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}h2{line-height:1.2}.container-fluid{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){}@media (min-width:768px){}@media (min-width:992px){}@media (min-width:1200px){}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.col-lg-9{position:relative;width:100%;padding-right:15px;padding-left:15px}@media (min-width:576px){}@media (min-width:768px){}@media (min-width:992px){.col-lg-9{-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}}@media (min-width:1200px){.col-xl-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}}@media (max-width:575.98px){}@media (max-width:767.98px){}@media (max-width:991.98px){}@media (max-width:1199.98px){}@media (prefers-reduced-motion:reduce){}@media (min-width:576px){}@media (prefers-reduced-motion:reduce){}@media (prefers-reduced-motion:reduce){}@media (prefers-reduced-motion:reduce){}@media (min-width:576px){}@media (min-width:768px){}@media (min-width:992px){}@media (min-width:1200px){}@media (prefers-reduced-motion:reduce){}@media (prefers-reduced-motion:reduce){}@media (prefers-reduced-motion:reduce){}@media (prefers-reduced-motion:reduce){}@media (prefers-reduced-motion:reduce){}@media (max-width:575.98px){}@media (min-width:576px){}@media (max-width:767.98px){}@media (min-width:768px){}@media (max-width:991.98px){}@media (min-width:992px){}@media (max-width:1199.98px){}@media (min-width:1200px){}@media (min-width:576px){}@media (min-width:576px){}@media (min-width:576px){}@media (prefers-reduced-motion:reduce){}@media (min-width:576px){}@-webkit-keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}@keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}@media (prefers-reduced-motion:reduce){}@media (prefers-reduced-motion:reduce){}@media (min-width:576px){}@media (min-width:768px){}@media (min-width:992px){}@media (min-width:1200px){}@media (prefers-reduced-motion:reduce){}@media (min-width:576px){}@media (min-width:992px){}@media (min-width:1200px){}@media (prefers-reduced-motion:reduce){}@media (prefers-reduced-motion:reduce){}@media (prefers-reduced-motion:reduce){}@media (prefers-reduced-motion:reduce){}@-webkit-keyframes spinner-border{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spinner-border{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes spinner-grow{0%{-webkit-transform:scale(0);transform:scale(0)}50%{opacity:1;-webkit-transform:none;transform:none}}@keyframes spinner-grow{0%{-webkit-transform:scale(0);transform:scale(0)}50%{opacity:1;-webkit-transform:none;transform:none}}@media (prefers-reduced-motion:reduce){}@media (min-width:576px){}@media (min-width:768px){}@media (min-width:992px){}@media (min-width:1200px){}@media (min-width:576px){}@media (min-width:768px){}@media (min-width:992px){}@media (min-width:1200px){}@media (min-width:576px){}@media (min-width:768px){}@media (min-width:992px){}@media (min-width:1200px){}@supports ((position:-webkit-sticky) or (position:sticky)){.sticky-top{position:-webkit-sticky;position:sticky;top:0;z-index:1020}}@media (min-width:576px){}@media (min-width:768px){}@media (min-width:992px){}@media (min-width:1200px){}@media (min-width:576px){}@media (min-width:768px){}@media (min-width:992px){}@media (min-width:1200px){}body.acs{background:hsl(240,20%,96%);margin:0px;padding:0px;border:none;font-size:15px;font-family:helvetica;overflow-wrap:break-word}@media only screen and (max-width:992px){}@media only screen and (max-width:550px){}@media only screen and (max-width:992px){}@media only screen and (max-width:675px){}@media only screen and (max-width:550px){}@media only screen and (max-width:410px){}.acs-body{padding:10px 0px 10px 0px}.acs-content-body{padding:20px 0px 6px 0px;background-color:white;box-shadow:10px 5px 5px -3px hsl(240,20%,93%)}.acs-content{padding:24px 14px 0px 14px}@media only screen and (max-width:1199.9px){.acs-body{padding:5px}.acs-content{padding:24px 12px 0px 12px}}@media only screen and (max-width:991.9px){.acs-body{padding:4px}}@media only screen and (max-width:575.9px){.acs-content{padding:24px 7px 0px 7px}}h2.tblheader{text-align:center;font-size:26px;color:hsl(235,22%,30%);font-weight:bold;margin-top:35px;margin-bottom:15px}a{text-decoration:none;color:hsl(225,100%,40%)}a:hover{color:#cc0044;text-decoration:underline}a:visited{color:hsl(225,100%,30%)}a:visited:hover{color:#cc0044;text-decoration:underline}.acs-tbl-div{overflow-x:auto}table{width:100%;overflow-wrap:normal;border-collapse:collapse;word-break:normal}table th{border:.2px solid hsl(235,22%,55%);text-align:left;padding:5px 10px 5px 10px;background-color:hsl(235,22%,35%);color:white}table td{border:.2px solid hsl(240,20%,85%);text-align:left;padding:5px 10px 5px 10px;vertical-align:top}table td:nth-child(1) a{text-decoration:underline;color:#0645ad;width:auto}table td:nth-child(1) a:hover{color:#cc0044;text-decoration:underline}table td:nth-child(1) a:visited{color:#0b0080}table td:nth-child(1) a:visited:hover{color:#cc0044}.acs-tbl-alt-color tr:nth-child(even){background-color:hsl(240,20%,93%)}.acs-tbl-alt-color tr:nth-child(odd){background-color:hsl(240,20%,99%)}@media only screen and (max-width:800px){}@media only screen and (max-width:520px){}@media only screen and (max-width:1490px){}@media only screen and (max-width:1199.9px){}@media only screen and (max-width:1010px){}@media only screen and (max-width:990px){}@media only screen and (max-width:760px){}@media only screen and (max-width:500px){}@media only screen and (max-width:1350px){}@media only screen and (max-width:1199.9px){}</style>
+<meta http-equiv=origin-trial content=AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9><meta name=referrer content=no-referrer><link rel=icon href="data:image/x-icon;base64,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AAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA///////////////////////8A///gAP/wAAB/8AAAf/gAAD/8AAA/8AAAH/AAAB/4AAAP/AAAD/wAAAf8AAAD/gAAAf8AAAD/AAAA/AAAAfAAAAHwAAAP/AAAB/8AAAH/wAAA//gAAP/+AB///4H//////////////////////8=" type=image/x-icon><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style><body class=acs>
+<div id=acs-SideNav style=display:none!important>
+</div>
+<div class="row no-gutters" id=header style=display:none!important>
+</div>
+<div id=acs-MainNav style=display:none!important>
+</div>
+<div class=acs-body>
+<div class=container-fluid>
+<div class=row>
+<div class="col-xl-3 col-lg-3 acs-left-col d-none d-lg-block" style=display:none!important>
+</div>
+<div class="col-xl-6 col-lg-9 acs-content-body"> 
+<div id=acs-content-div style=opacity:1>
+ 
+<div id=acs-div-pageheader style=display:none!important></div>
+<hr class=m-1 style=display:none!important>
+<div class=acs-adtopdiv style=display:none!important>
+ 
+</div>
+<hr class=m-1 style=display:none!important>
+<div class=acs-content>
+<p style=display:none!important>Keywords are reserved words and SQLite has a number of keywords that are available while working on a database. A list of these keywords with brief description are mentioned below. For more details about any keyword, please visit its page.</p>
+<h2 class=tblheader>SQLite Keywords</h2>
+<div class=acs-tbl-div>
+<table class=acs-tbl-alt-color>
+<tbody><tr><th>Keyword<th>Description</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-add.php>ADD</a></td> 
+ <td>Adds a column in an existing table.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-add-constraint.php>ADD CONSTRAINT</a></td> 
+ <td>Adds a constraint after a table is already created.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-alter-column.php>ALTER COLUMN</a></td> 
+ <td>Changes the data type of a column in a table.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-alter-table.php>ALTER TABLE</a></td> 
+ <td>Adds, deletes, or modifies columns in an existing table.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-and.php>AND</a></td> 
+ <td>Combines multiple conditions and include a record if all the conditions separated by AND keyword are true.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-as.php>AS</a></td> 
+ <td>Renames a column or table with an alias.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-asc.php>ASC</a></td> 
+ <td>Sorts the result set in ascending order.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-attach-database.php>ATTACH DATABASE</a></td> 
+ <td>Attaches another SQLite database file to current database connection.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-between.php>BETWEEN</a></td> 
+ <td>Specify a range in SQLite statement.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-case.php>CASE</a></td> 
+ <td>Creates different outputs based on conditions.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-check.php>CHECK</a></td> 
+ <td>A constraint to ensures that all values in a column of a table satisfies specified condition.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-create-database.php>CREATE DATABASE</a></td> 
+ <td>Creates a new SQLite database.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-create-index.php>CREATE INDEX</a></td> 
+ <td>Creates an index on a table (allows duplicate values).</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-create-table.php>CREATE TABLE</a></td> 
+ <td>Creates a new table in the database.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-create-table-as.php>CREATE TABLE AS</a></td> 
+ <td>Creates a table from an existing table by copying the existing table columns.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-create-unique-index.php>CREATE UNIQUE INDEX</a></td> 
+ <td>Creates a unique index on a table (no duplicate values).</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-create-view.php>CREATE VIEW</a></td> 
+ <td>Creates a view based on a SELECT statement.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-cross-join.php>CROSS JOIN</a></td> 
+ <td>Returns all rows from both of the tables when there is a match in either left table or right table.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-default.php>DEFAULT</a></td> 
+ <td>A constraint used to set the default value for a column.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-delete.php>DELETE</a></td> 
+ <td>Deletes the existing records from a table.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-desc.php>DESC</a></td> 
+ <td>Sorts the result set in descending order.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-detach-database.php>DETACH DATABASE</a></td> 
+ <td>Detaches an attached database from current database connection.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-distinct.php>DISTINCT</a></td> 
+ <td>Selects only distinct (different) values from the database.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-drop-column.php>DROP COLUMN</a></td> 
+ <td>Deletes a column in a table.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-drop-constraint.php>DROP CONSTRAINT</a></td> 
+ <td>Deletes a UNIQUE, PRIMARY KEY, FOREIGN KEY, or CHECK constraint.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-drop-default.php>DROP DEFAULT</a></td> 
+ <td>Deletes a DEFAULT constraint.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-drop-index.php>DROP INDEX</a></td> 
+ <td>Deletes an index on a table.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-drop-table.php>DROP TABLE</a></td> 
+ <td>Deletes an existing table from the database.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-drop-view.php>DROP VIEW</a></td> 
+ <td>Deletes a view.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-except.php>EXCEPT</a></td> 
+ <td>Returns all records from the first result-set that do not appear in the second result-set.</tr> 
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-exists.php>EXISTS</a></td> 
+ <td>Tests for the existence of records from a subquery.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-foreign-key.php>FOREIGN KEY</a></td> 
+ <td>A constraint that is a key used to link two tables together.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-from.php>FROM</a></td> 
+ <td>Specifies which table to select or delete data from</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-glob.php>GLOB</a></td> 
+ <td>Search for a specified pattern in a specified column. Performs case-sensitive search.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-group-by.php>GROUP BY</a></td> 
+ <td>Arrange the result table into identical groups (used with aggregate functions: COUNT, MAX, MIN, SUM, AVG).</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-having.php>HAVING</a></td> 
+ <td>Specify conditions with aggregate functions.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-in.php>IN</a></td> 
+ <td>Specify multiple values with a SQLite WHERE clause.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-index.php>INDEX</a></td> 
+ <td>Creates or deletes an index on a table.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-inner-join.php>INNER JOIN</a></td> 
+ <td>Returns all rows from both of the tables when there is a match between the columns.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-insert-into.php>INSERT INTO</a></td> 
+ <td>Inserts a new record in a table.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-insert-into-select.php>INSERT INTO SELECT</a></td> 
+ <td>Copies data from one table into another table</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-intersect.php>INTERSECT</a></td> 
+ <td>Returns the intersection of result-set of two or more SELECT statements.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-is-null.php>IS NULL</a></td> 
+ <td>Tests for empty values of a field.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-is-not-null.php>IS NOT NULL</a></td> 
+ <td>Tests for non-empty values of a field.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-join.php>JOIN</a></td> 
+ <td>Joins rows of two or more tables based on common column between them. </tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-left-join.php>LEFT JOIN</a></td> 
+ <td>Returns all rows of the left table and matching rows of the right table.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-left-outer-join.php>LEFT OUTER JOIN</a></td> 
+ <td>Returns all rows of the left table and matching rows of the right table.</tr> 
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-like.php>LIKE</a></td> 
+ <td>Search for a specified pattern in a specified column.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-limit.php>LIMIT</a></td> 
+ <td>Specifies number of records to fetch from a table.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-not.php>NOT</a></td> 
+ <td>Include a record where the specified condition is not true.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-not-glob.php>NOT GLOB</a></td> 
+ <td>Negation of GLOB.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-not-like.php>NOT LIKE</a></td> 
+ <td>Negation of LIKE.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-not-null.php>NOT NULL</a></td> 
+ <td>A constraint that enforces a column to not accept NULL values.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-or.php>OR</a></td> 
+ <td>Combines multiple conditions and include a record if any of the conditions separated by OR keyword is true.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-order-by.php>ORDER BY</a></td> 
+ <td>Sorts the result table in ascending or descending order.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-primary-key.php>PRIMARY KEY</a></td> 
+ <td>A constraint that ensures that all values in a column are unique and not null.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-select.php>SELECT</a></td> 
+ <td>Selects data from a database.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-select-distinct.php>SELECT DISTINCT</a></td> 
+ <td>Selects only distinct (different) values from a database.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-select-limit.php>SELECT LIMIT</a></td> 
+ <td>Specifies number of records to fetch from a table.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-set.php>SET</a></td> 
+ <td>Specifies which columns and values that should be updated in a table.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-truncate-table.php>TRUNCATE TABLE</a></td> 
+ <td>Deletes the complete data from an existing table, but not the table itself.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-union.php>UNION</a></td> 
+ <td>Combines the result set of two or more SELECT statements (only distinct values).</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-union-all.php>UNION ALL</a></td> 
+ <td>Combines the result set of two or more SELECT statements (allows duplicate values).</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-unique-constraint.php>UNIQUE</a></td> 
+ <td>A constraint that ensures that all values in a column are unique.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-update.php>UPDATE</a></td> 
+ <td>Updates the existing records in a table.</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-values.php>VALUES</a></td> 
+ <td>Specifies the values of an INSERT INTO statement</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-view.php>VIEW</a></td> 
+ <td>Creates, updates, or deletes a view</tr>
+<tr><td><a href=https://www.alphacodingskills.com/sqlite/notes/sqlite-keyword-where.php>WHERE</a></td> 
+ <td>Filters a result set to include only records that fulfill a specified condition</tr>
+</table>
+</div>
+</div>
+</div>
+</div> 
+</div>
+</div>
+</div> 
